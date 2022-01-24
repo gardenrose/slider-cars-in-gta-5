@@ -1,0 +1,168 @@
+body {
+    margin:0;
+    padding: 0;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:url(backgroundd.png);
+    overflow: hidden;
+}
+
+.logo2{
+    margin-left:-200px;
+    margin-top: -400px;
+}
+
+.logo1{
+    margin-left:-200px;
+    margin-top: 300px;
+}
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 50px;
+}
+
+.slides {
+    width: 50%;
+    height:500px;
+    display: flex;
+    float:left;
+}
+
+.slides input {
+    display:none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slides img {
+    width: 800px;
+    height: 500px;
+}
+
+.navigmanual {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display:flex;
+    justify-content: center;
+}
+
+.mannual-btn {
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mannual-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.mannual-btn:hover {
+    background: yellowgreen;
+}
+
+
+#btn1:checked ~ .slidefirst{
+    margin-left: 0;
+    transition: 2s;
+}
+
+#btn2:checked ~ .slidefirst{
+    margin-left: -200%;
+    transition: 2s;
+}
+
+
+#btn3:checked ~ .slidefirst{
+    margin-left: -400%;
+    transition: 2s;
+}
+#btn4:checked ~ .slidefirst{
+    margin-left: -600%;
+    transition: 2s;
+}
+#btn5:checked ~ .slidefirst{
+    margin-left: -800%;
+    transition: 2s;
+}
+
+
+.captions .caption1{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    top:0;
+    left:1160px;
+    right:2px;
+    background: rgb(77, 74, 74);
+    box-sizing:border-box;
+    opacity:0.5;
+    color: ivory;
+    font-size: 20px;
+}
+
+.captions .caption2{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    top:0;
+    left:1160px;
+    right:2px;
+    background: rgb(77, 74, 74);
+    box-sizing:border-box;
+    opacity:0.5;
+    color: ivory;
+    font-size: 20px;
+}
+
+.captions .caption3{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    top:0;
+    left:1160px;
+    right:2px;
+    background: rgb(77, 74, 74);
+    box-sizing:border-box;
+    opacity:0.5;
+    color: ivory;
+    font-size: 20px;
+}
+.captions .caption4{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    top:0;
+    left:1160px;
+    right:2px;
+    background: rgb(77, 74, 74);
+    box-sizing:border-box;
+    opacity:0.5;
+    color: ivory;
+    font-size: 20px;
+}
+.captions .caption5{
+    visibility: hidden;
+    position: absolute;
+    float: left;
+    top:0;
+    left:1160px;
+    right:2px;
+    background: rgb(77, 74, 74);
+    box-sizing:border-box;
+    opacity:0.5;
+    color: ivory;
+    font-size: 20px;
+}
+
